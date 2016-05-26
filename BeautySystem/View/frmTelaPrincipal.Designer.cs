@@ -31,9 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnCategoria = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnCategoria = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -70,18 +70,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Agendamentos";
             // 
-            // btnCategoria
-            // 
-            this.btnCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCategoria.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCategoria.Location = new System.Drawing.Point(6, 21);
-            this.btnCategoria.Name = "btnCategoria";
-            this.btnCategoria.Size = new System.Drawing.Size(101, 93);
-            this.btnCategoria.TabIndex = 0;
-            this.btnCategoria.Text = "Categoria";
-            this.btnCategoria.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCategoria.UseVisualStyleBackColor = true;
-            // 
             // groupBox3
             // 
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -102,11 +90,25 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Ferramentas";
             // 
+            // btnCategoria
+            // 
+            this.btnCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCategoria.Image = global::BeautySystem.Properties.Resources.categoria2;
+            this.btnCategoria.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnCategoria.Location = new System.Drawing.Point(6, 21);
+            this.btnCategoria.Name = "btnCategoria";
+            this.btnCategoria.Size = new System.Drawing.Size(101, 93);
+            this.btnCategoria.TabIndex = 0;
+            this.btnCategoria.Text = "Categoria";
+            this.btnCategoria.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCategoria.UseVisualStyleBackColor = true;
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(616, 30);
+            this.pictureBox1.Image = global::BeautySystem.Properties.Resources.logo_BeautySystem;
+            this.pictureBox1.Location = new System.Drawing.Point(616, 37);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(356, 275);
+            this.pictureBox1.Size = new System.Drawing.Size(356, 268);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
