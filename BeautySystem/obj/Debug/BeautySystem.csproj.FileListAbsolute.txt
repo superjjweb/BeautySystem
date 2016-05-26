@@ -1,0 +1,8 @@
+c:\users\suporte\documents\visual studio 2015\Projects\BeautySystem\BeautySystem\bin\Debug\BeautySystem.exe.config
+c:\users\suporte\documents\visual studio 2015\Projects\BeautySystem\BeautySystem\bin\Debug\BeautySystem.exe
+c:\users\suporte\documents\visual studio 2015\Projects\BeautySystem\BeautySystem\bin\Debug\BeautySystem.pdb
+c:\users\suporte\documents\visual studio 2015\Projects\BeautySystem\BeautySystem\obj\Debug\BeautySystem.csprojResolveAssemblyReference.cache
+c:\users\suporte\documents\visual studio 2015\Projects\BeautySystem\BeautySystem\obj\Debug\BeautySystem.Properties.Resources.resources
+c:\users\suporte\documents\visual studio 2015\Projects\BeautySystem\BeautySystem\obj\Debug\BeautySystem.csproj.GenerateResource.Cache
+c:\users\suporte\documents\visual studio 2015\Projects\BeautySystem\BeautySystem\obj\Debug\BeautySystem.exe
+c:\users\suporte\documents\visual studio 2015\Projects\BeautySystem\BeautySystem\obj\Debug\BeautySystem.pdb
