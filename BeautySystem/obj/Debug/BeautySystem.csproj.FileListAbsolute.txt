@@ -26,3 +26,4 @@ C:\Users\mrsil\Source\Repos\BeautySystem\BeautySystem\obj\Debug\BeautySystem.Vie
 C:\Users\mrsil\Source\Repos\BeautySystem\BeautySystem\obj\Debug\BeautySystem.csproj.GenerateResource.Cache
 C:\Users\mrsil\Source\Repos\BeautySystem\BeautySystem\obj\Debug\BeautySystem.exe
 C:\Users\mrsil\Source\Repos\BeautySystem\BeautySystem\obj\Debug\BeautySystem.pdb
+C:\Users\Suporte\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.View.frmCadastroCategoria.resources

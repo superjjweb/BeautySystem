@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,7 +49,14 @@
   <ItemGroup>
     <Compile Include="Controller\CategoriaController.cs" />
     <Compile Include="Model\DataModel\CategoriaModel.cs" />
+    <Compile Include="Model\DataModel\DadosConexaoModel.cs" />
     <Compile Include="Model\Repository\CategoriaRepository.cs" />
+    <Compile Include="View\frmCadastroCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmCadastroCategoria.Designer.cs">
+      <DependentUpon>frmCadastroCategoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +81,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\frmCadastroCategoria.resx">
+      <DependentUpon>frmCadastroCategoria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,7 +101,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Controller\App.config" />
+    <None Include="Model\Repository\App.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo-BeautySystem.png" />
@@ -103,6 +114,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1464251770_calendar-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laptop_accept.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

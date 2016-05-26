@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BeautySystem.Controller;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace BeautySystem.View
         public frmTelaPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void btnCategoria_Click(object sender, EventArgs e)
+        {
+            CategoriaController categoria = new CategoriaController();
+            categoria.AbrirTelaCategoria();
         }
     }
 }

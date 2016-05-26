@@ -11,9 +11,16 @@ namespace BeautySystem.Controller
     {
         public void AbrirTelaPrincipal()
         {
-            frmTelaPrincipal frmCadastroPerfil = new frmTelaPrincipal();
-            frmCadastroPerfil.ShowDialog();
-            frmCadastroPerfil.Dispose();
+            frmTelaPrincipal tp = new frmTelaPrincipal();
+            tp.ShowDialog();
+            tp.Dispose();
+        }
+
+        public void AbrirTelaCategoria()
+        {
+            frmCadastroCategoria cc = new frmCadastroCategoria();
+            cc.ShowDialog();
+            cc.Dispose();
         }
 
     }
