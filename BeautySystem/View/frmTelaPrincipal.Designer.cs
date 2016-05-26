@@ -95,7 +95,7 @@
             this.btnCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCategoria.Image = global::BeautySystem.Properties.Resources.categoria2;
             this.btnCategoria.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCategoria.Location = new System.Drawing.Point(6, 21);
+            this.btnCategoria.Location = new System.Drawing.Point(7, 21);
             this.btnCategoria.Name = "btnCategoria";
             this.btnCategoria.Size = new System.Drawing.Size(101, 93);
             this.btnCategoria.TabIndex = 0;
