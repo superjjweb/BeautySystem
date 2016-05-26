@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BeautySystem.Controller;
 
 namespace BeautySystem
 {
@@ -20,9 +21,8 @@ namespace BeautySystem
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            frmTelaPrincipal p = new frmTelaPrincipal();
-            p.ShowDialog();
-            p.Dispose();
+            CategoriaController telaprincipal = new CategoriaController();
+           telaprincipal.AbrirTelaPrincipal();
         }
     }
 }
