@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-
+using BeautySystem.Model.DataModel;
 
 namespace BeautySystem.Model.Repository
 {
@@ -21,13 +21,14 @@ namespace BeautySystem.Model.Repository
         public const string strSelect = "SELECT * FROM categoria";
         public const string strUpdate = "UPDATE categoria SET nome_cat = @nome_cat";
 
-        public void Gravar(string nome_cat)
+        public void Gravar(CategoriaModel cm)
         {
             using (SqlConnection objConexao = new SqlConnection(strConexao))
             {
                 using (SqlCommand objComando = new SqlCommand(strInsert, objConexao))
                 {
-                    objComando.Parameters.AddWithValue("@nome_cat", nome_cat);
+                    
+                    objComando.Parameters.AddWithValue("@nome_cat", cm.NomeCat);
 
                     objConexao.Open();
 

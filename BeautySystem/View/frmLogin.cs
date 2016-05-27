@@ -21,8 +21,10 @@ namespace BeautySystem
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
+            
             CategoriaController telaprincipal = new CategoriaController();
            telaprincipal.AbrirTelaPrincipal();
+            Close();
         }
     }
 }
