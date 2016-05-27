@@ -42,9 +42,12 @@
             this.button4 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtNomeCat = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
+            this.tabConsulta.SuspendLayout();
             this.tabCadastro.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSalvar
@@ -52,7 +55,7 @@
             this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.Image = global::BeautySystem.Properties.Resources.laptop_accept;
             this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSalvar.Location = new System.Drawing.Point(6, 17);
+            this.btnSalvar.Location = new System.Drawing.Point(10, 22);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(83, 69);
             this.btnSalvar.TabIndex = 2;
@@ -102,15 +105,16 @@
             this.tabControl1.Location = new System.Drawing.Point(2, 59);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(519, 268);
+            this.tabControl1.Size = new System.Drawing.Size(519, 375);
             this.tabControl1.TabIndex = 5;
             // 
             // tabConsulta
             // 
+            this.tabConsulta.Controls.Add(this.dataGridView1);
             this.tabConsulta.Location = new System.Drawing.Point(4, 22);
             this.tabConsulta.Name = "tabConsulta";
             this.tabConsulta.Padding = new System.Windows.Forms.Padding(3);
-            this.tabConsulta.Size = new System.Drawing.Size(511, 242);
+            this.tabConsulta.Size = new System.Drawing.Size(511, 349);
             this.tabConsulta.TabIndex = 0;
             this.tabConsulta.Text = "Consulta Categoria";
             this.tabConsulta.UseVisualStyleBackColor = true;
@@ -123,7 +127,7 @@
             this.tabCadastro.Location = new System.Drawing.Point(4, 22);
             this.tabCadastro.Name = "tabCadastro";
             this.tabCadastro.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCadastro.Size = new System.Drawing.Size(511, 242);
+            this.tabCadastro.Size = new System.Drawing.Size(511, 349);
             this.tabCadastro.TabIndex = 1;
             this.tabCadastro.Text = "Cadastro";
             this.tabCadastro.UseVisualStyleBackColor = true;
@@ -135,9 +139,9 @@
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.btnSalvar);
-            this.panel1.Location = new System.Drawing.Point(4, 150);
+            this.panel1.Location = new System.Drawing.Point(1, 241);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(504, 89);
+            this.panel1.Size = new System.Drawing.Size(504, 102);
             this.panel1.TabIndex = 2;
             // 
             // button6
@@ -171,7 +175,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 3);
+            this.label3.Location = new System.Drawing.Point(6, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 16);
             this.label3.TabIndex = 0;
@@ -179,16 +183,24 @@
             // 
             // txtNomeCat
             // 
-            this.txtNomeCat.Location = new System.Drawing.Point(6, 23);
+            this.txtNomeCat.Location = new System.Drawing.Point(9, 33);
             this.txtNomeCat.Name = "txtNomeCat";
             this.txtNomeCat.Size = new System.Drawing.Size(302, 20);
             this.txtNomeCat.TabIndex = 1;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(13, 6);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(492, 340);
+            this.dataGridView1.TabIndex = 0;
             // 
             // frmCadastroCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 482);
+            this.ClientSize = new System.Drawing.Size(542, 446);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -198,9 +210,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Categoria";
             this.tabControl1.ResumeLayout(false);
+            this.tabConsulta.ResumeLayout(false);
             this.tabCadastro.ResumeLayout(false);
             this.tabCadastro.PerformLayout();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,5 +235,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtNomeCat;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
