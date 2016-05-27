@@ -23,5 +23,11 @@ namespace BeautySystem.View
             CategoriaController categoria = new CategoriaController();
             categoria.AbrirTelaCategoria();
         }
+
+        private void btnPerfil_Click(object sender, EventArgs e)
+        {
+            CategoriaController perfil = new CategoriaController();
+            perfil.AbrirTelaPerfil();
+        }
     }
 }
