@@ -20,13 +20,13 @@ namespace BeautySystem.View
 
         private void btnCategoria_Click(object sender, EventArgs e)
         {
-            CategoriaController categoria = new CategoriaController();
+            TelaPrincipalController categoria = new TelaPrincipalController();
             categoria.AbrirTelaCategoria();
         }
 
         private void btnPerfil_Click(object sender, EventArgs e)
         {
-            CategoriaController perfil = new CategoriaController();
+            TelaPrincipalController perfil = new TelaPrincipalController();
             perfil.AbrirTelaPerfil();
         }
     }

@@ -13,34 +13,7 @@ namespace BeautySystem.Controller
    public class CategoriaController
     {
         CategoriaRepository objDados = new CategoriaRepository();
-
-
-        public void AbrirTelaPrincipal()
-        {
-            frmTelaPrincipal tp = new frmTelaPrincipal();
-           
-            tp.ShowDialog();
-            tp.Dispose();
-        }
-
-        public void AbrirTelaCategoria()
-        {
-            
-            frmCadastroCategoria cc = new frmCadastroCategoria();
-            cc.ShowDialog();
-            cc.Dispose();
-        }
-
-        public void AbrirTelaPerfil()
-        {
-
-            frmCadastroPerfil cp = new frmCadastroPerfil();
-            cp.ShowDialog();
-            cp.Dispose();
-        }
-
-
-
+ 
         public  void SalvarCategoria(CategoriaModel cm)
         {
             try

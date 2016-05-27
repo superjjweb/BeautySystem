@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Controller\CategoriaController.cs" />
     <Compile Include="Controller\PerfilController.cs" />
+    <Compile Include="Controller\TelaPrincipalController.cs" />
     <Compile Include="Model\DataModel\CategoriaModel.cs" />
     <Compile Include="Model\DataModel\PerfilModel.cs" />
     <Compile Include="Model\Repository\CategoriaRepository.cs" />
