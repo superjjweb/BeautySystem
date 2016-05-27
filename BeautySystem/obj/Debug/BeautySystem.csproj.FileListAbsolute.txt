@@ -61,3 +61,4 @@ C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\Beaut
 C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.frmLogin.resources
 C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.View.frmTelaPrincipal.resources
 C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.csproj.GenerateResource.Cache
+C:\Users\mrsil\OneDrive\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.View.frmCadastroPerfil.resources
