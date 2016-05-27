@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\CategoriaController.cs" />
+    <Compile Include="Controller\PerfilController.cs" />
     <Compile Include="Model\DataModel\CategoriaModel.cs" />
     <Compile Include="Model\Repository\CategoriaRepository.cs" />
     <Compile Include="View\frmCadastroCategoria.cs">

@@ -49,3 +49,6 @@ C:\Users\mrsil\Desktop\BeautySystem\BeautySystem\obj\Debug\BeautySystem.View.frm
 C:\Users\mrsil\Desktop\BeautySystem\BeautySystem\obj\Debug\BeautySystem.csproj.GenerateResource.Cache
 C:\Users\mrsil\Desktop\BeautySystem\BeautySystem\bin\Debug\BeautySystem.exe
 C:\Users\mrsil\Desktop\BeautySystem\BeautySystem\bin\Debug\BeautySystem.pdb
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\bin\Debug\BeautySystem.exe.config
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.exe
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.pdb
