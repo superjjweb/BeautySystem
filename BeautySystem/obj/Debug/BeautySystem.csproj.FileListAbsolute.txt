@@ -52,3 +52,12 @@ C:\Users\mrsil\Desktop\BeautySystem\BeautySystem\bin\Debug\BeautySystem.pdb
 C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\bin\Debug\BeautySystem.exe.config
 C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.exe
 C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.pdb
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\bin\Debug\BeautySystem.exe
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\bin\Debug\BeautySystem.pdb
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.csprojResolveAssemblyReference.cache
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.Properties.Resources.resources
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.View.frmCadastroCategoria.resources
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.View.frmCadastroPerfil.resources
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.frmLogin.resources
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.View.frmTelaPrincipal.resources
+C:\Users\Jose Joaquim\Documents\GitHub\BeautySystem\BeautySystem\obj\Debug\BeautySystem.csproj.GenerateResource.Cache
