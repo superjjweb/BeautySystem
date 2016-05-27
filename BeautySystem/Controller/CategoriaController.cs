@@ -31,6 +31,14 @@ namespace BeautySystem.Controller
             cc.Dispose();
         }
 
+        public void AbrirTelaPerfil()
+        {
+
+            frmCadastroPerfil cp = new frmCadastroPerfil();
+            cp.ShowDialog();
+            cp.Dispose();
+        }
+
 
 
         public  void SalvarCategoria(CategoriaModel cm)
