@@ -32,5 +32,10 @@ namespace BeautySystem.View
             cc.SalvarCategoria(cm);
            
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
